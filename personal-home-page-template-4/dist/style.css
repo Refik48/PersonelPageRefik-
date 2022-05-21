@@ -1,0 +1,117 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+html,
+body {
+  margin: 10px;
+  padding:10px;
+  height: 80%;
+  background: rgb(211,211,205);
+}
+h1{
+  margin-left:30px;
+}
+
+h2{
+  text-align: center;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color:#e6e6FA
+ 
+}
+ul {
+  display: flex;
+  justify-content:flex-end;
+  list-style: none;
+  margin-right: 30px;
+  }
+ul li{
+  width: 100px;
+  padding: 5px 10px;
+   
+}
+p{
+   margin: 10px;
+   padding: 10px;  
+}
+.about-section{
+  margin:auto;
+  width:80%;
+}
+#nav-bar{
+  width: 100%;
+  margin-top: 0px;
+}
+a{
+   text-decoration: none;
+}
+a:hover{
+ color:  white; 
+}
+#img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+}
+.res{
+  margin-top:10px;
+  border-radius: 30px
+}
+#clip{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:30px;
+  
+}
+#galleryContainer{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  
+/*   grid-template-columns: 1fr 1fr; */
+/*   grid-template-rows: auto; */
+/*   grid-gap:20px */
+  
+}
+.gallery1{
+  margin-top:20px;
+  border-radius: 30px
+}
+.gallery2{
+  margin-top:20px;
+  border-radius: 30px
+}
+.gallery3{
+  margin-top:30px;
+  border-radius: 30px
+}
+
+.c-site-footer{
+   background-color:#e6e6FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  margin-top:20px;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
